@@ -4,16 +4,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #95e1f0;
+  background: #2c3e50;
 }
 
 .frame {
-  width: 1440px;
-  height: 1080px;
+  width: 800px;
+  height: 400px;
   background: #ddd;
 
   border: 8px solid red;
-
   box-shadow:
     0 0 0 8px yellow,
     0 0 0 16px #999,
@@ -22,4 +21,11 @@ body {
 
   padding: 20px;
   box-sizing: border-box;
+
+  /* 👇 THIS is the important part */
+  font-family: 'STIX Two Text', serif;
+  font-size: 48px;
+
+  /* centers text inside the box */
+  text-align: center;
 }
