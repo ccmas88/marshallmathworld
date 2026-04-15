@@ -49,3 +49,15 @@ body {
   color: white;
   font-family: Arial, sans-serif;
 }
+/* Relations page styling */
+.linear-page {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-size: 48px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
