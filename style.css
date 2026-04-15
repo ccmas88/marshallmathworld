@@ -7,8 +7,8 @@ body {
 }
 
 .frame {
-  width: 1440px;
-  height: 1080px;
+  width: 600px;
+  height: 400px;
   background: #ddd;
 
   /* Main border layers */
