@@ -1,0 +1,23 @@
+body {
+  background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.frame {
+  width: 600px;
+  height: 350px;
+  background: #ddd;
+
+  /* Main border layers */
+  border: 8px solid red;
+  box-shadow:
+    0 0 0 8px yellow,
+    0 0 0 16px #999,
+    0 0 0 24px #444,
+    0 0 20px rgba(0,0,0,0.8);
+
+  padding: 20px;
+}
